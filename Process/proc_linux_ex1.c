@@ -20,3 +20,9 @@ int main(){
 		return 0;
 	}
 }
+
+// gerando .S (que é o assembly) com "gcc -S proc_linux_ex2.c"
+
+// gerando executável com "gcc -o {qualquer_nome} proc_linux_ex2.c"
+// e então só executando o executável digitando o nome dele no terminal, "./{qualquer_nome}"
+// se não tiver nenhum print no arquivo vai parecer que não acontece nada, mas ele rodou
