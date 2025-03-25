@@ -24,5 +24,8 @@ int main()
 	// é o pid do filho gerado. o pid1 representa o pid do processo que está sendo executado.
 	// olhando para os logs faz sentido.
 
+	// podemos ver os processos em execução (se eles forem travados) abrindo outro terminal
+	// e usando o comando htop
+
 	return 0;
 }

@@ -77,7 +77,7 @@ void thread_le_teclado(void) {
 	while(1){
 		fgets( teclado, 1000, stdin);
 		aloca_tela();
-		printf("Digite novo valor:\n");
+		printf("Digite um valor:\n");
 		fgets( teclado, 1000, stdin);
 		defineValor(atoi(teclado));
 		libera_tela();
