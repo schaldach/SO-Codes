@@ -42,3 +42,7 @@ int main( int argc, char *argv[]) {
     pthread_join( t1, NULL);
     pthread_join( t2, NULL);
 }
+
+// está erradinho... ver correção
+// o exercicio é pra mostrar que as threads não irão esperar a outra para terminar.
+// o principal problmea é que uma acontece antes da outra e elas não ficam sincronizadas, se chamarmos ao mesmo tempo

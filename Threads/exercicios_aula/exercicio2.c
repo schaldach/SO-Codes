@@ -48,3 +48,4 @@ int main( int argc, char *argv[]) {
     printf("soma é %d\n", sum);
     printf("produto é %d\n", mul);
 }
+// tudo certo!
